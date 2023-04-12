@@ -1,7 +1,7 @@
 import React from 'react';
 
 const RadioSelection = ({ options = [], onSelectHandler }) => {
-  console.log(options);
+  // console.log(options);
   return (
     <div>
       {options.map((option) => {
